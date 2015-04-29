@@ -58,6 +58,10 @@
                 <li>
                     <a href="#signup">Signup</a>
                 </li>
+                <li>
+                    <a href="#about">About us</a>
+                </li>
+
                 @if(Auth::check())
                     @if(Auth::user()->email=='dtang@usc.edu')
                     <li>
@@ -213,6 +217,69 @@
     <!-- /.container -->
 
 </div>
+<a  name="about"></a>
+<div class="content-section-a">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-sm-6">
+                <hr class="section-heading-spacer">
+                <div class="clearfix"></div>
+                <h2 class="section-heading">Explore new places for your next vacation</h2>
+            </div>
+            <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                <img class="img-responsive" src="{{ asset('img/barca.jpg')}}" alt="">
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+</div>
+<!-- /.content-section-a -->
+
+<div class="content-section-b">
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                <hr class="section-heading-spacer">
+                <div class="clearfix"></div>
+                <h2 class="section-heading">View traveler photos from around the world</h2>
+            </div>
+            <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                <img class="img-responsive" src="{{ asset('img/traveler.jpg')}}" alt="">
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+</div>
+<!-- /.content-section-b -->
+
+<div class="content-section-a">
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-5 col-sm-6">
+                <hr class="section-heading-spacer">
+                <div class="clearfix"></div>
+                <h2 class="section-heading">Find out what travelers say about your next vacation destination</h2>
+            </div>
+            <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                <img class="img-responsive" src="{{ asset('img/reviews.jpg')}}" alt="">
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+</div>
+<!-- /.content-section-a -->
+
 
 <!-- jQuery -->
 <script src="{{ asset('js/jquery.js') }}"></script>

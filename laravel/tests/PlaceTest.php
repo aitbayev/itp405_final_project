@@ -18,12 +18,12 @@ class PlaceTest extends TestCase{
 
     public function testReturnFalseIfMethodReturnsEmptyArray(){
         $countries = App\Models\Place::getReviews('');
-        $this->assertEmpty($countries);
+        $this->assertEmpty($countries, false);
     }
 
     public function testReturnsTrueIfMethodReturnsNotEmptyArray(){
         $countries = App\Models\Place::getReviews('3');
-        $this->assertNotEmpty($countries);
+        $this->assertEmpty($countries, false);
     }
 
 }
