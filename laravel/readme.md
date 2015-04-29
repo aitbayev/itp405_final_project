@@ -1,4 +1,7 @@
-## Laravel PHP Framework
+## Travel guide app
+Website link: http://itp405aitbayeva.herokuapp.com/search
+Video link: https://www.youtube.com/upload
+Admin credentials: email: dtang@usc.edu, password: laravel
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
 [![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
